@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Emptable.css";
 
 
 const data = [
@@ -36,34 +37,6 @@ function App() {
     )
 }
 
-// function EmployeeTable(props) {
-//     return (
-//         <div className='App'>
-//             Employee Table..!
-//             <table>
-//                 <tr>
-//                     <th>EmpName</th>
-//                     <th>EmpAge</th>
-//                     <th>Gender</th>
-//                 </tr>
-//                 <tr>
-//                     <td>Balu</td>
-//                     <td>35</td>
-//                     <td>Male</td>
-//                 </tr>
-//                 <tr>
-//                     <td>Naveen</td>
-//                     <td>28</td>
-//                     <td>Male</td>
-//                 </tr>
-//                 <tr>
-//                     <td>Srikanya</td>
-//                     <td>24</td>
-//                     <td>Female</td>
-//                 </tr>
-//             </table>
-//         </div>
-//     );
-// }
+
 
 export default App;
