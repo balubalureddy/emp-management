@@ -15,9 +15,9 @@ function App() {
     <Navbar/>
     <Routes>
       <Route path="/" Component={EmployeeTable} />
-      <Route path="/AddEmployee.js" Component={AddEmployee} />
-      <Route path="/table.js" Component={creatingTable} />
-      <Route path="/form.js" Component={Creatingform} />
+      <Route path="/AddEmployee" Component={AddEmployee} />
+      <Route path="/table" Component={creatingTable} />
+      <Route path="/form" Component={Creatingform} />
     </Routes>
     </>
   );
