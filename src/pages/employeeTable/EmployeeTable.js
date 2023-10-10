@@ -44,7 +44,7 @@ function App() {
             <h3 className='emp'> EmployeeTable..!</h3>
             <input type='text' placeholder='name' value={newEmployee.name} onChange={(e)=> setNewEmployee({...newEmployee,name:e.target.value})}/>
             <button onClick={handleAddEmployee}>Add / Update employee</button>
-            <table>
+            <table className='table table-striped'>
 
                 <thead>
                     <tr>
