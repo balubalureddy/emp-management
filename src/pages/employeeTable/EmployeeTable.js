@@ -44,7 +44,7 @@ function App() {
             <h3 className='emp'> EmployeeTable..!</h3>
             <input type='text' placeholder='name' value={newEmployee.name} onChange={(e)=> setNewEmployee({...newEmployee,name:e.target.value})}/>
             <button onClick={handleAddEmployee}>Add / Update employee</button>
-            <table>
+            <table className='table table-striped'>
 
                 <thead>
                     <tr>
@@ -70,34 +70,6 @@ function App() {
     )
 }
 
-// function EmployeeTable(props) {
-//     return (
-//         <div className='App'>
-//             Employee Table..!
-//             <table>
-//                 <tr>
-//                     <th>EmpName</th>
-//                     <th>EmpAge</th>
-//                     <th>Gender</th>
-//                 </tr>
-//                 <tr>
-//                     <td>Balu</td>
-//                     <td>35</td>
-//                     <td>Male</td>
-//                 </tr>
-//                 <tr>
-//                     <td>Naveen</td>
-//                     <td>28</td>
-//                     <td>Male</td>
-//                 </tr>
-//                 <tr>
-//                     <td>Srikanya</td>
-//                     <td>24</td>
-//                     <td>Female</td>
-//                 </tr>
-//             </table>
-//         </div>
-//     );
-// }
+
 
 export default App;
