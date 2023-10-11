@@ -1,7 +1,7 @@
 /* App.css */
 
 body { 
-	/* background-color: azure;  */
+	background-color: azure; 
 	color:#fff; 
 } 
 
@@ -37,17 +37,4 @@ button {
 	border-radius: 8px; 
 	margin: 10px; 
 	cursor: pointer; 
-}
-
-table{
-    margin-left: 20%; 
-	margin-right: 20%; 
-}
-
-.table-striped{
-    color: black;
-}
-
-thead{
-    margin: 10px; 
 }

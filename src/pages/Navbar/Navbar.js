@@ -23,7 +23,7 @@ const Navbar = () => {
           <Link to="/" className={url === '/' ? 'active':''}>Home</Link>
         </li>
         <li>
-          <Link to="/add-employee" className={url === '/add-employee' ? 'active':''}>Add Employee</Link>
+          <Link to="/addemployee" className={url === '/addemployee' ? 'active':''}>Add Employee</Link>
         </li>
         <li>
           <Link to="/table" className={url === '/table' ? 'active':''}>Table</Link>
